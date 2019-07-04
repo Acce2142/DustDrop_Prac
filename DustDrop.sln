@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DustDrop", "DustDrop\DustDrop.csproj", "{F029112F-DFAF-4A99-8C52-5D4BC141022D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F029112F-DFAF-4A99-8C52-5D4BC141022D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F029112F-DFAF-4A99-8C52-5D4BC141022D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F029112F-DFAF-4A99-8C52-5D4BC141022D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F029112F-DFAF-4A99-8C52-5D4BC141022D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22B40933-A298-4DBA-9EBE-C366C2BFFEA1}
+	EndGlobalSection
+EndGlobal
