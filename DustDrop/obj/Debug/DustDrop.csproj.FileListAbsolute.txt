@@ -1,0 +1,9 @@
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\DustDrop.csprojAssemblyReference.cache
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\Main.resources
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\DustDrop.csproj.GenerateResource.cache
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\DustDrop.csproj.CoreCompileInputs.cache
+C:\Users\sli43\source\repos\DustDrop\DustDrop\bin\Debug\file transfer.exe
+C:\Users\sli43\source\repos\DustDrop\DustDrop\bin\Debug\file transfer.pdb
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\file_transfer.Properties.Resources.resources
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\file transfer.exe
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Debug\file transfer.pdb

@@ -1,0 +1,8 @@
+C:\Users\sli43\source\repos\DustDrop\DustDrop\bin\Release\file transfer.exe
+C:\Users\sli43\source\repos\DustDrop\DustDrop\bin\Release\file transfer.pdb
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\Main.resources
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\file_transfer.Properties.Resources.resources
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\DustDrop.csproj.GenerateResource.cache
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\DustDrop.csproj.CoreCompileInputs.cache
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\file transfer.exe
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\file transfer.pdb

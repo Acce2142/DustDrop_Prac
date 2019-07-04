@@ -101,7 +101,7 @@
             this.portToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.txtServerPort});
             this.portToolStripMenuItem.Name = "portToolStripMenuItem";
-            this.portToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.portToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.portToolStripMenuItem.Text = "Port";
             // 
             // txtServerPort
@@ -113,18 +113,18 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(95, 6);
             // 
             // btnStartServer
             // 
             this.btnStartServer.Name = "btnStartServer";
-            this.btnStartServer.Size = new System.Drawing.Size(152, 22);
+            this.btnStartServer.Size = new System.Drawing.Size(98, 22);
             this.btnStartServer.Text = "Start";
             // 
             // btnStopServer
             // 
             this.btnStopServer.Name = "btnStopServer";
-            this.btnStopServer.Size = new System.Drawing.Size(152, 22);
+            this.btnStopServer.Size = new System.Drawing.Size(98, 22);
             this.btnStopServer.Text = "Stop";
             // 
             // toolStripSeparator1
@@ -238,7 +238,7 @@
             this.toolStripMenuItem1,
             this.btnClearComplete});
             this.menuTransfers.Name = "contextMenuStrip1";
-            this.menuTransfers.Size = new System.Drawing.Size(157, 120);
+            this.menuTransfers.Size = new System.Drawing.Size(157, 98);
             // 
             // btnSendFile
             // 
@@ -318,7 +318,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Main";
-            this.Text = "File Transfer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DustDrop";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.menuTransfers.ResumeLayout(false);
