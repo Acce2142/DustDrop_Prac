@@ -144,6 +144,7 @@
             this.txtCntHost.Name = "txtCntHost";
             this.txtCntHost.Size = new System.Drawing.Size(100, 25);
             this.txtCntHost.Text = "localhost";
+            this.txtCntHost.Click += new System.EventHandler(this.txtCntHost_Click);
             // 
             // txtCntPort
             // 

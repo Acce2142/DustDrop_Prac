@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using DustDrop;
+using System.Net;
+using System.Net.Sockets;
 
 public partial class Main : Form
 {
@@ -25,6 +27,7 @@ public partial class Main : Form
 
     public Main()
     {
+       
         InitializeComponent();
         //Create the listener and register the event.
         listener = new Listener();
@@ -56,6 +59,19 @@ public partial class Main : Form
         btnStopServer.Enabled = false;
     }
 
+
+    public string GetLocalIPAddress()
+    {
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        foreach (var ip in host.AddressList)
+        {
+            if (ip.AddressFamily == AddressFamily.InterNetwork)
+            {
+                return ip.ToString();
+            }
+        }
+        throw new Exception("No network adapters with an IPv4 address in the system!");
+    }
     protected override void OnFormClosing(FormClosingEventArgs e)
     {
         //Deregister all the events from the client if it is connected.
@@ -391,5 +407,24 @@ public partial class Main : Form
         }
 
         progressOverall.Value = 0;
+    }
+
+    private void txtCntHost_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    this.txtCntHost.Text = ip.ToString();
+                }
+            }
+        }
+        catch
+        {
+            MessageBox.Show("Failed to get the local IP Address");
+        }
     }
 }

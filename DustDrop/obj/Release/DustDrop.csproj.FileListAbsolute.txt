@@ -6,3 +6,4 @@ C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\DustDrop.csproj.Genera
 C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\DustDrop.csproj.CoreCompileInputs.cache
 C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\file transfer.exe
 C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\file transfer.pdb
+C:\Users\sli43\source\repos\DustDrop\DustDrop\obj\Release\DustDrop.csprojAssemblyReference.cache
